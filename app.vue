@@ -378,15 +378,7 @@ onUnmounted(() => {
   overflow: hidden;
 }
 
-.inspira-contact-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background: var(--primary-gradient);
-}
+
 
 .inspira-input {
   width: 100%;
